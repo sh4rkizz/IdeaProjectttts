@@ -3,7 +3,7 @@ package sh4rkizz;
 import java.util.Scanner;
 
 public class Change {
-    private static int findPossibilities(int cost, int possibilities, int buff) {
+    private static int findPossibilities(int possibilities, int buff) {
         if (buff == 1)
             return possibilities;
 
@@ -19,7 +19,7 @@ public class Change {
                 break;
             }
 
-        return findPossibilities(cost, possibilities, buff - 1);
+        return findPossibilities(possibilities, buff - 1);
     }
 
     private static void change() {
@@ -32,7 +32,7 @@ public class Change {
         else if (ex < 5)
             System.out.println(2);
 
-        else System.out.println(findPossibilities(ex, 1, ex));
+        else System.out.println(findPossibilities(1, ex));
     }
 
     public static void main(String[] args) {
