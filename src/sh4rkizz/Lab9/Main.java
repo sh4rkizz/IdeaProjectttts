@@ -7,7 +7,9 @@ public class Main {
     private static final ArrayList<Employee> interns = new ArrayList<>();
 
     public static void test() {
-        apple.handleEmployees(interns);
+        Factory factory;
+        factory = (interns) -> apple.handleEmployees(interns);
+        factory.handleEmployees(interns);
         apple.outStaffSalary();
         interns.clear();
     }
@@ -23,7 +25,9 @@ public class Main {
         //Тест найма
         for (int i = 0; i < 10; i++)
             interns.add(new Employee(15000));
-        test();
+        apple.handleEmployees(interns);
+        apple.outStaffSalary();
+        interns.clear();
 
         //Тест увольнения
         for (int i = 0; i < apple.getStaff().size(); i += 2)

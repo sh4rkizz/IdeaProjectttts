@@ -3,7 +3,7 @@ package sh4rkizz.Lab9;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Company {
+public class Company implements Factory {
     private final ArrayList<Employee> staff = new ArrayList<>();
     private final Scanner in = new Scanner(System.in);
 
@@ -44,6 +44,7 @@ public class Company {
             System.out.println(emp.getName() + " " + emp.getSalary() + "rub.");
     }
 
+    @Override
     public void handleEmployees(ArrayList<Employee> employees) {
         System.out.println("1 - if you want to hire these interns to the company");
         System.out.println("2 - if you want to fire these employees");
