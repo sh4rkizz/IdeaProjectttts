@@ -25,9 +25,7 @@ public class Main {
         //Тест найма
         for (int i = 0; i < 10; i++)
             interns.add(new Employee(15000));
-        apple.handleEmployees(interns);
-        apple.outStaffSalary();
-        interns.clear();
+        test();
 
         //Тест увольнения
         for (int i = 0; i < apple.getStaff().size(); i += 2)
