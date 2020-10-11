@@ -111,30 +111,23 @@ public class Calculator extends JFrame {
     class Calc implements ActionListener {
         public void actionPerformed(ActionEvent event) {
             String resultStr = "";
-            if (Objects.equals(inputA.getText(), "")) {
-                JOptionPane.showMessageDialog(null, "First input field hasn`t been filled yet",
-                        "Output", JOptionPane.PLAIN_MESSAGE);
-            } else if (Objects.equals(inputB.getText(), "")) {
-                JOptionPane.showMessageDialog(null, "Second input field hasn`t been filled yet",
-                        "Output", JOptionPane.PLAIN_MESSAGE);
-            } else {
+            try {
+                valA = Double.parseDouble(inputA.getText());
                 try {
-                    valA = Double.parseDouble(inputA.getText());
-                    try {
-                        valB = Double.parseDouble(inputB.getText());
-                    } catch (Exception e) {
-                        JOptionPane.showMessageDialog(null,
-                                "Second input is incorrect",
-                                "Output", JOptionPane.PLAIN_MESSAGE);
-                        resultStr = "error";
-                    }
+                    valB = Double.parseDouble(inputB.getText());
                 } catch (Exception e) {
                     JOptionPane.showMessageDialog(null,
-                            "First input is incorrect",
+                            "Second input is incorrect",
                             "Output", JOptionPane.PLAIN_MESSAGE);
                     resultStr = "error";
                 }
-
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(null,
+                        "First input is incorrect",
+                        "Output", JOptionPane.PLAIN_MESSAGE);
+                resultStr = "error";
+            }
+            if (!resultStr.equals("error")) {
                 if (event.getSource() == mButton)
                     result = valA * valB;
                 else if (event.getSource() == sButton)
@@ -147,7 +140,6 @@ public class Calculator extends JFrame {
                 resultStr = new DecimalFormat("#.####").format(result);
                 resultField.setText(resultStr);
             }
-            resultStr = "";
         }
     }
 }
