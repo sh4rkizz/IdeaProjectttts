@@ -90,19 +90,6 @@ public class Calculator extends JFrame {
             }
         });
 
-        resultField.addFocusListener(new FocusListener() {
-            @Override
-            public void focusGained(FocusEvent e) {
-                resultField.setText("");
-            }
-
-            @Override
-            public void focusLost(FocusEvent e) {
-                if (Objects.equals(resultField.getText(), ""))
-                    resultField.setText("Значение А");
-            }
-        });
-
         container.setLayout(null);
         container.setVisible(true);
         container.setBounds(770, 170, 400, 550);
