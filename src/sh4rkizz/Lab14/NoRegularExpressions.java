@@ -4,8 +4,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class NoRegularExpressions {
+    public static void main(String[] args) {
+        System.out.println(changeLine());
+    }
+
     private static String compare(String line, ArrayList<String> changeFrom, ArrayList<String> changeTo) {
-        for (int pos = 0; pos < line.length(); pos++) {
+        for (int pos = 0; pos < line.length(); pos++)
             for (int i = 0; i < changeFrom.size(); i++) {
                 String changeF = changeFrom.get(i);
                 String changeT = changeTo.get(i);
@@ -13,7 +17,7 @@ public class NoRegularExpressions {
                 if (line.indexOf(changeF) == pos)
                     line = line.replaceFirst(changeF, "/" + changeT + ".");
             }
-        }
+
         line = line.replace("/", "");
         line = line.replace(".", "");
 
@@ -30,7 +34,6 @@ public class NoRegularExpressions {
         short n = scn.nextShort();
         System.out.println("\nВведите условия: ");
 
-
         for (int i = 0; i < n; i++) {
             System.out.print("Change: ");
             changeFrom.add(scn.next());
@@ -42,9 +45,5 @@ public class NoRegularExpressions {
         line = scn.nextLine();
 
         return compare(line, changeFrom, changeTo);
-    }
-
-    public static void main(String[] args) {
-        System.out.println(changeLine());
     }
 }
