@@ -38,7 +38,7 @@ public class ReportMaker {
             if (files != null)
                 for (String str : files)
                     if (str.endsWith(".java")) {
-                        writer.write("** " + str + " **" + "\n");
+                        writer.write("**" + str + "**" + "\n");
                         writer.write("```java" + "\n");
 
                         try (BufferedReader reader = new BufferedReader(new FileReader(path + "/" + str))) {
