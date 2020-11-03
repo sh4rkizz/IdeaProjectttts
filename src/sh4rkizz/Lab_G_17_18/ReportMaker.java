@@ -10,7 +10,7 @@ public class ReportMaker {
         File file = new File(basePath);
 
         try (PrintWriter writer = new PrintWriter(mdFilePath)) {
-            writer.write("# " + "Java sh4rkizz`s programming report");
+            writer.write("# " + "Java sh4rkizz`s programming report" + "\n");
         } catch (Exception e) {
             System.out.println("File has not been opened");
         }
@@ -32,28 +32,30 @@ public class ReportMaker {
         if (file.isDirectory())
             files = file.list();
 
-        if (files != null)
-            for (String str : files)
-                if (str.endsWith(".java")) {
-                    try (FileWriter writer = new FileWriter(mdFilePath, true)) {
-                        writer.write("\n" + "## " + path.substring(path.lastIndexOf("\\") + 1) + "\n");
-                        writer.write("**    " + str + "**\n");
+        try (FileWriter writer = new FileWriter(mdFilePath, true)) {
+            writer.write("## " + path.substring(path.lastIndexOf("\\") + 1) + "\n");
+
+            if (files != null)
+                for (String str : files)
+                    if (str.endsWith(".java")) {
+                        writer.write("** " + str + " **" + "\n");
                         writer.write("```java" + "\n");
 
                         try (BufferedReader reader = new BufferedReader(new FileReader(path + "/" + str))) {
                             line = reader.readLine();
+
                             while (line != null) {
                                 writer.write(line + "\n");
                                 line = reader.readLine();
                             }
                         } catch (Exception exception) {
-                            System.out.println("Error1");
+                            System.out.println("An error occurred when when the the .java file search conducted");
                         }
 
-                        writer.write("```");
-                    } catch (IOException ioException) {
-                        System.out.println("Error2");
+                        writer.write("```" + "\n");
                     }
-                }
+        } catch (IOException ioException) {
+            System.out.println("An error occurred when was the .md file search conducted");
+        }
     }
 }

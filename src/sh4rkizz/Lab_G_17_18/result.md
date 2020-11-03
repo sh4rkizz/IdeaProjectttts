@@ -1,6 +1,6 @@
 # Java sh4rkizz`s programming report
 ## Lab_1
-**    FactorialOfN.java**
+** FactorialOfN.java **
 ```java
 package sh4rkizz.Lab_1;
 
@@ -20,8 +20,7 @@ public class FactorialOfN {
     }
 }
 ```
-## Lab_1
-**    HarmonicNumbers.java**
+** HarmonicNumbers.java **
 ```java
 package sh4rkizz.Lab_1;
 
@@ -34,8 +33,7 @@ public class HarmonicNumbers {
     }
 }
 ```
-## Lab_1
-**    MassiveSort.java**
+** MassiveSort.java **
 ```java
 package sh4rkizz.Lab_1;
 
@@ -96,8 +94,7 @@ public class MassiveSort {
     }
 }
 ```
-## Lab_1
-**    MassiveSum.java**
+** MassiveSum.java **
 ```java
 package sh4rkizz.Lab_1;
 
@@ -141,8 +138,7 @@ public class MassiveSum {
     }
 }
 ```
-## Lab_1
-**    ShowArgs.java**
+** ShowArgs.java **
 ```java
 package sh4rkizz.Lab_1;
 
@@ -154,7 +150,7 @@ public class ShowArgs {
 }
 ```
 ## Lab_2
-**    Ball.java**
+** Ball.java **
 ```java
 package sh4rkizz.Lab_2;
 
@@ -202,8 +198,7 @@ public class Ball {
     }
 }
 ```
-## Lab_2
-**    Book.java**
+** Book.java **
 ```java
 package sh4rkizz.Lab_2;
 
@@ -249,8 +244,7 @@ public class Book {
     }
 }
 ```
-## Lab_2
-**    Dog.java**
+** Dog.java **
 ```java
 package sh4rkizz.Lab_2;
 
@@ -300,8 +294,7 @@ public class Dog {
     }
 }
 ```
-## Lab_2
-**    DogKennel.java**
+** DogKennel.java **
 ```java
 package sh4rkizz.Lab_2;
 
@@ -365,8 +358,7 @@ public class DogKennel {
     }
 }
 ```
-## Lab_2
-**    Main.java**
+** Main.java **
 ```java
 package sh4rkizz.Lab_2;
 
@@ -412,8 +404,7 @@ public class Main {
     }
 }
 ```
-## Lab_2
-**    Shape.java**
+** Shape.java **
 ```java
 package sh4rkizz.Lab_2;
 
@@ -439,8 +430,7 @@ public class Shape {
     }
 }
 ```
-## Lab_2
-**    TestBall.java**
+** TestBall.java **
 ```java
 package sh4rkizz.Lab_2;
 
@@ -457,8 +447,7 @@ public class TestBall {
     }
 }
 ```
-## Lab_2
-**    TestBook.java**
+** TestBook.java **
 ```java
 package sh4rkizz.Lab_2;
 
@@ -475,8 +464,7 @@ public class TestBook {
     }
 }
 ```
-## Lab_2
-**    TestDog.java**
+** TestDog.java **
 ```java
 package sh4rkizz.Lab_2;
 
@@ -496,8 +484,7 @@ public class TestDog {
     }
 }
 ```
-## Lab_2
-**    TestShape.java**
+** TestShape.java **
 ```java
 package sh4rkizz.Lab_2;
 
@@ -513,7 +500,7 @@ public class TestShape {
 }
 ```
 ## Lab_3
-**    Book.java**
+** Book.java **
 ```java
 package sh4rkizz.Lab_3;
 
@@ -566,8 +553,7 @@ public class Book {
     }
 }
 ```
-## Lab_3
-**    BookTest.java**
+** BookTest.java **
 ```java
 package sh4rkizz.Lab_3;
 
@@ -585,8 +571,7 @@ public class BookTest {
     }
 }
 ```
-## Lab_3
-**    Circle.java**
+** Circle.java **
 ```java
 package sh4rkizz.Lab_3;
 
@@ -630,8 +615,7 @@ public class Circle {
     }
 }
 ```
-## Lab_3
-**    Hand.java**
+** Hand.java **
 ```java
 package sh4rkizz.Lab_3;
 
@@ -669,8 +653,7 @@ public class Hand {
     }
 }
 ```
-## Lab_3
-**    Head.java**
+** Head.java **
 ```java
 package sh4rkizz.Lab_3;
 
@@ -708,8 +691,7 @@ public class Head {
     }
 }
 ```
-## Lab_3
-**    Human.java**
+** Human.java **
 ```java
 package sh4rkizz.Lab_3;
 
@@ -773,8 +755,7 @@ public class Human {
     }
 }
 ```
-## Lab_3
-**    Leg.java**
+** Leg.java **
 ```java
 package sh4rkizz.Lab_3;
 
@@ -811,8 +792,7 @@ public class Leg {
     }
 }
 ```
-## Lab_3
-**    Main.java**
+** Main.java **
 ```java
 package sh4rkizz.Lab_3;
 
@@ -823,8 +803,7 @@ public class Main {
     }
 }
 ```
-## Lab_3
-**    TestCircle.java**
+** TestCircle.java **
 ```java
 package sh4rkizz.Lab_3;
 
@@ -872,8 +851,7 @@ public class TestCircle {
     }
 }
 ```
-## Lab_3
-**    TestHuman.java**
+** TestHuman.java **
 ```java
 package sh4rkizz.Lab_3;
 
@@ -894,7 +872,7 @@ public class TestHuman {
 }
 ```
 ## Lab_4
-**    Circle.java**
+** Circle.java **
 ```java
 package sh4rkizz.Lab_4;
 
@@ -934,8 +912,7 @@ public class Circle extends Shape {
     }
 }
 ```
-## Lab_4
-**    Rectangle.java**
+** Rectangle.java **
 ```java
 package sh4rkizz.Lab_4;
 
@@ -990,8 +967,7 @@ public class Rectangle extends Shape{
     }
 }
 ```
-## Lab_4
-**    Shape.java**
+** Shape.java **
 ```java
 package sh4rkizz.Lab_4;
 
@@ -1037,8 +1013,7 @@ public abstract class Shape {
     }
 }
 ```
-## Lab_4
-**    Square.java**
+** Square.java **
 ```java
 package sh4rkizz.Lab_4;
 
@@ -1080,8 +1055,7 @@ public class Square extends Shape {
     }
 }
 ```
-## Lab_4
-**    TestUML.java**
+** TestUML.java **
 ```java
 package sh4rkizz.Lab_4;
 
@@ -1095,7 +1069,7 @@ public class TestUML {
 }
 ```
 ## Lab_5
-**    Main.java**
+** Main.java **
 ```java
 package sh4rkizz.Lab_5;
 
@@ -1138,8 +1112,7 @@ public class Main {
     }
 }
 ```
-## Lab_5
-**    Movable.java**
+** Movable.java **
 ```java
 package sh4rkizz.Lab_5;
 
@@ -1150,8 +1123,7 @@ void moveLeft(double left);
 void moveRight(double right);
 }
 ```
-## Lab_5
-**    MovableCircle.java**
+** MovableCircle.java **
 ```java
 package sh4rkizz.Lab_5;
 
@@ -1185,8 +1157,7 @@ public class MovableCircle implements Movable {
     }
 }
 ```
-## Lab_5
-**    MovablePoint.java**
+** MovablePoint.java **
 ```java
 package sh4rkizz.Lab_5;
 
@@ -1242,8 +1213,7 @@ public class MovablePoint implements Movable {
     }
 }
 ```
-## Lab_5
-**    MovableRectangle.java**
+** MovableRectangle.java **
 ```java
 package sh4rkizz.Lab_5;
 
@@ -1289,7 +1259,7 @@ public class MovableRectangle {
 }
 ```
 ## Lab_6
-**    SquareGame.java**
+** SquareGame.java **
 ```java
 package sh4rkizz.Lab_6;
 
@@ -1355,7 +1325,7 @@ public class SquareGame {
 }
 ```
 ## Lab_7_8
-**    Company.java**
+** Company.java **
 ```java
 package sh4rkizz.Lab_7_8;
 
@@ -1427,8 +1397,7 @@ public class Company {
     }
 }
 ```
-## Lab_7_8
-**    Employee.java**
+** Employee.java **
 ```java
 package sh4rkizz.Lab_7_8;
 
@@ -1461,8 +1430,7 @@ public class Employee {
     }
 }
 ```
-## Lab_7_8
-**    EmployeePosition.java**
+** EmployeePosition.java **
 ```java
 package sh4rkizz.Lab_7_8;
 
@@ -1471,8 +1439,7 @@ public interface EmployeePosition {
     double calcSalary(double baseSalary);
 }
 ```
-## Lab_7_8
-**    Main.java**
+** Main.java **
 ```java
 package sh4rkizz.Lab_7_8;
 
@@ -1565,8 +1532,7 @@ public class Main {
     }
 }
 ```
-## Lab_7_8
-**    Manager.java**
+** Manager.java **
 ```java
 package sh4rkizz.Lab_7_8;
 
@@ -1595,8 +1561,7 @@ public class Manager implements EmployeePosition {
     }
 }
 ```
-## Lab_7_8
-**    Operator.java**
+** Operator.java **
 ```java
 package sh4rkizz.Lab_7_8;
 
@@ -1620,8 +1585,7 @@ public class Operator implements EmployeePosition {
     }
 }
 ```
-## Lab_7_8
-**    TopManager.java**
+** TopManager.java **
 ```java
 package sh4rkizz.Lab_7_8;
 
@@ -1650,7 +1614,7 @@ public class TopManager implements EmployeePosition {
 }
 ```
 ## Lab_9
-**    Company.java**
+** Company.java **
 ```java
 package sh4rkizz.Lab_9;
 
@@ -1726,8 +1690,7 @@ public class Company implements Factory {
     }
 }
 ```
-## Lab_9
-**    Employee.java**
+** Employee.java **
 ```java
 package sh4rkizz.Lab_9;
 
@@ -1800,8 +1763,7 @@ public class Employee {
     }
 }
 ```
-## Lab_9
-**    Factory.java**
+** Factory.java **
 ```java
 package sh4rkizz.Lab_9;
 
@@ -1811,8 +1773,7 @@ public interface Factory {
         void handleEmployees(ArrayList<Employee> employees);
 }
 ```
-## Lab_9
-**    Main.java**
+** Main.java **
 ```java
 package sh4rkizz.Lab_9;
 
@@ -1863,7 +1824,7 @@ public class Main {
 }
 ```
 ## Lab_A_10
-**    Calculator.java**
+** Calculator.java **
 ```java
 package sh4rkizz.Lab_A_10;
 
@@ -1998,8 +1959,7 @@ public class Calculator extends JFrame {
     }
 }
 ```
-## Lab_A_10
-**    Main.java**
+** Main.java **
 ```java
 package sh4rkizz.Lab_A_10;
 
@@ -2013,7 +1973,7 @@ public class Main {
 }
 ```
 ## Lab_B_11
-**    Threads.java**
+** Threads.java **
 ```java
 package sh4rkizz.Lab_B_11;
 
@@ -2049,8 +2009,7 @@ public class Threads extends Thread {
     }
 }
 ```
-## Lab_B_11
-**    ThreadsOperation.java**
+** ThreadsOperation.java **
 ```java
 package sh4rkizz.Lab_B_11;
 
@@ -2084,7 +2043,7 @@ public class ThreadsOperation {
 }
 ```
 ## Lab_C_12
-**    ColoredText.java**
+** ColoredText.java **
 ```java
 package sh4rkizz.Lab_C_12;
 
@@ -2115,8 +2074,7 @@ public enum ColoredText {
     }
 }
 ```
-## Lab_C_12
-**    Colors.java**
+** Colors.java **
 ```java
 package sh4rkizz.Lab_C_12;
 
@@ -2148,7 +2106,7 @@ public class Colors {
 }
 ```
 ## Lab_D_13
-**    Main.java**
+** Main.java **
 ```java
 package sh4rkizz.Lab_D_13;
 
@@ -2190,16 +2148,14 @@ public class Main {
     }
 }
 ```
-## Lab_D_13
-**    MyException.java**
+** MyException.java **
 ```java
 package sh4rkizz.Lab_D_13;
 
 public class MyException extends IllegalAccessException {
 }
 ```
-## Lab_D_13
-**    MyRuntimeException.java**
+** MyRuntimeException.java **
 ```java
 package sh4rkizz.Lab_D_13;
 
@@ -2210,7 +2166,7 @@ public class MyRuntimeException extends RuntimeException {
 }
 ```
 ## Lab_E_14
-**    NoRegularExpressions.java**
+** NoRegularExpressions.java **
 ```java
 package sh4rkizz.Lab_E_14;
 
@@ -2258,8 +2214,7 @@ public class NoRegularExpressions {
     }
 }
 ```
-## Lab_E_14
-**    RegularExpressions.java**
+** RegularExpressions.java **
 ```java
 package sh4rkizz.Lab_E_14;
 
@@ -2303,7 +2258,7 @@ public class RegularExpressions {
 }
 ```
 ## Lab_F_15_16
-**    Main.java**
+** Main.java **
 ```java
 package sh4rkizz.Lab_F_15_16;
 
@@ -2325,8 +2280,7 @@ public class Main {
     }
 }
 ```
-## Lab_F_15_16
-**    Node.java**
+** Node.java **
 ```java
 package sh4rkizz.Lab_F_15_16;
 
@@ -2381,7 +2335,7 @@ class Node {
 
 ```
 ## Lab_G_17_18
-**    ReportMaker.java**
+** ReportMaker.java **
 ```java
 package sh4rkizz.Lab_G_17_18;
 
@@ -2395,7 +2349,7 @@ public class ReportMaker {
         File file = new File(basePath);
 
         try (PrintWriter writer = new PrintWriter(mdFilePath)) {
-            writer.write("# " + "Java sh4rkizz`s programming report");
+            writer.write("# " + "Java sh4rkizz`s programming report" + "\n");
         } catch (Exception e) {
             System.out.println("File has not been opened");
         }
@@ -2417,29 +2371,31 @@ public class ReportMaker {
         if (file.isDirectory())
             files = file.list();
 
-        if (files != null)
-            for (String str : files)
-                if (str.endsWith(".java")) {
-                    try (FileWriter writer = new FileWriter(mdFilePath, true)) {
-                        writer.write("\n" + "## " + path.substring(path.lastIndexOf("\\") + 1) + "\n");
-                        writer.write("**    " + str + "**\n");
+        try (FileWriter writer = new FileWriter(mdFilePath, true)) {
+            writer.write("## " + path.substring(path.lastIndexOf("\\") + 1) + "\n");
+
+            if (files != null)
+                for (String str : files)
+                    if (str.endsWith(".java")) {
+                        writer.write("** " + str + " **" + "\n");
                         writer.write("```java" + "\n");
 
                         try (BufferedReader reader = new BufferedReader(new FileReader(path + "/" + str))) {
                             line = reader.readLine();
+
                             while (line != null) {
                                 writer.write(line + "\n");
                                 line = reader.readLine();
                             }
                         } catch (Exception exception) {
-                            System.out.println("Error1");
+                            System.out.println("An error occurred when when the the .java file search conducted");
                         }
 
-                        writer.write("```");
-                    } catch (IOException ioException) {
-                        System.out.println("Error2");
+                        writer.write("```" + "\n");
                     }
-                }
+        } catch (IOException ioException) {
+            System.out.println("An error occurred when was the .md file search conducted");
+        }
     }
 }
 ```
