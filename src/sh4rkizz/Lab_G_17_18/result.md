@@ -2350,8 +2350,9 @@ public class ReportMaker {
 
         try (PrintWriter writer = new PrintWriter(mdFilePath)) {
             writer.write("# " + "Java sh4rkizz`s programming report" + "\n");
-        } catch (Exception e) {
+        } catch (Exception exception) {
             System.out.println("File has not been opened");
+            exception.printStackTrace();
         }
 
         if (file.isDirectory()) {
@@ -2389,12 +2390,14 @@ public class ReportMaker {
                             }
                         } catch (Exception exception) {
                             System.out.println("An error occurred when when the the .java file search conducted");
+                            exception.printStackTrace();
                         }
 
                         writer.write("```" + "\n");
                     }
         } catch (IOException ioException) {
             System.out.println("An error occurred when was the .md file search conducted");
+            ioException.printStackTrace();
         }
     }
 }
