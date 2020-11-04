@@ -12,7 +12,7 @@ public class ReportMaker {
         try (PrintWriter writer = new PrintWriter(mdFilePath)) {
             writer.write("# " + "Java sh4rkizz`s programming report" + "\n");
         } catch (Exception exception) {
-            System.out.println("File has not been opened");
+            System.out.println("An error occurred when the file opening conducted");
             exception.printStackTrace();
         }
 
@@ -50,7 +50,7 @@ public class ReportMaker {
                                 line = reader.readLine();
                             }
                         } catch (Exception exception) {
-                            System.out.println("An error occurred when when the the .java file search conducted");
+                            System.out.println("An error occurred when the the .java file search conducted");
                             exception.printStackTrace();
                         }
 
