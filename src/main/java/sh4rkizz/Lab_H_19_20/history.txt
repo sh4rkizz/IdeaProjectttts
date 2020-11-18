@@ -1,0 +1,22 @@
+sharkizz`s group chat
+
+15 Nov 2020 16.05
+Alex: kak dela
+
+15 Nov 2020 16.05
+qwer: norm
+
+15 Nov 2020 16.05
+qwer: 
+
+15 Nov 2020 16.05
+qwer:         sendMessageThread.start();
+
+15 Nov 2020 16.05
+qwer:         receiveMessageThread.start();
+
+15 Nov 2020 16.05
+qwer: 
+
+15 Nov 2020 16.05
+qwer:         sendMessageThread.join();
