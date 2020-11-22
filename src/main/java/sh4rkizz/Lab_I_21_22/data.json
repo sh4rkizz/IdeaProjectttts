@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "data": "data",
+    "isGood": false,
+    "description": "description"
+  },
+  {
+    "id": 6,
+    "data": "data",
+    "isGood": false,
+    "description": "description"
+  },
+  {
+    "id": 7,
+    "data": "sharkizz was not An Imposter",
+    "isGood": true,
+    "description": "2 Impostors has left"
+  },
+  {
+    "id": 8,
+    "data": "data",
+    "isGood": true,
+    "description": "qweqw"
+  }
+]
