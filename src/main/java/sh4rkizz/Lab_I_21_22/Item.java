@@ -29,12 +29,12 @@ public class Item {
         this.data = data;
     }
 
-    public boolean isGood() {
-        return isGood;
-    }
-
     public void setGood(boolean good) {
         isGood = good;
+    }
+
+    public boolean isGood() {
+        return isGood;
     }
 
     public String getDescription() {

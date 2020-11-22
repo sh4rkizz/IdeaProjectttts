@@ -51,7 +51,6 @@ public class Impostor implements ItemStore {
         for (Item thing : itemList)
             if (item.getId() == thing.getId())
                 throw new NullPointerException();
-
         try {
             if (item.getId() == 0)
                 item.setId(itemList.get(itemList.size() - 1).getId() + 1);
