@@ -1,5 +1,7 @@
 package sh4rkizz.Lab_K_25_26;
 
+import java.util.Objects;
+
 public class PairKeyValue<K, V> {
     private K key;
     private V value;
@@ -31,5 +33,19 @@ public class PairKeyValue<K, V> {
                 + key + ", "
                 + value +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        PairKeyValue<?, ?> that = (PairKeyValue<?, ?>) o;
+        return Objects.equals(key, that.key) &&
+                Objects.equals(value, that.value);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(key, value);
     }
 }

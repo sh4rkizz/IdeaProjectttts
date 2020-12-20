@@ -21,10 +21,20 @@ public class MyHashMap<K, V> implements HashMapInterface<K, V> {
             mainList.add(new LinkedList<>());
     }
 
+    public PairKeyValue<K, V> getPair(K key) {
+        for (PairKeyValue<K, V> pair : mainList.get(key.hashCode() % capacity))
+            if (pair.getKey().equals(key))
+                return pair;
+
+        return null;
+    }
+
     @Override
     public void add(K key, V value) {
-        if (getPair(key) != null)
+        try {
             remove(key);
+        } catch (NullPointerException nPtr) {
+        }
 
         PairKeyValue<K, V> pair = new PairKeyValue<>(key, value);
 
@@ -35,28 +45,23 @@ public class MyHashMap<K, V> implements HashMapInterface<K, V> {
     @Override
     public V get(K key) {
         for (PairKeyValue<K, V> pair : mainList.get(key.hashCode() % capacity))
-            if (pair.getKey() == key)
+            if (pair.getKey().equals(key))
                 return pair.getValue();
-
-        return null;
-    }
-
-    public PairKeyValue<K, V> getPair(K key) {
-        for (PairKeyValue<K, V> pair : mainList.get(key.hashCode() % capacity))
-            if (pair.getKey() == key)
-                return pair;
 
         return null;
     }
 
     @Override
     public V remove(K key) {
-        PairKeyValue<K, V> pair = getPair(key);
-        System.out.println(pair);
-        mainList.get(key.hashCode() % capacity).remove(pair);
-        notNullPairList.remove(pair);
+        try {
+            PairKeyValue<K, V> pair = getPair(key);
+            mainList.get(key.hashCode() % capacity).remove(pair);
+            notNullPairList.remove(pair);
 
-        return pair.getValue();
+            return pair.getValue();
+        } catch (NullPointerException nPtr) {
+            return null;
+        }
     }
 
     public void setCapacity(int newSize) {

@@ -7,6 +7,9 @@ public class TestHashMap {
         for (int i = 0; i < 7; i++)
             str.add("key_" + i, "val_" + i);
 
+        System.out.println(str.remove("key_2") + " is deleted");
+        System.out.println(str.get("key_1"));
+
         System.out.println(str);
     }
 }

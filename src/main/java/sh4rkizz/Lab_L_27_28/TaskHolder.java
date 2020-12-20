@@ -3,7 +3,8 @@ package sh4rkizz.Lab_L_27_28;
 import java.util.StringJoiner;
 
 public class TaskHolder {
-    public String sum(NewObject object) {
+    @ConsoleAnnotation(operationType = "sum")
+    public String addAndPrint(NewObject object) {
         int sum = 0;
 
         for (Integer number : object.getData().getNumbers())
@@ -12,7 +13,8 @@ public class TaskHolder {
         return "id: " + object.getId() + ", " + sum;
     }
 
-    public String print(NewObject object) {
+    @ConsoleAnnotation(operationType = "print")
+    public String combineAndPrint(NewObject object) {
         StringJoiner sj = new StringJoiner(object.getData().getDelimeter());
 
         for (String str : object.getData().getWords())
